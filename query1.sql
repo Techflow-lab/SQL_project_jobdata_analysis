@@ -1,4 +1,4 @@
-WITH top_paying_jobs AS(
+WITH top_paying_jobs AS (
     SELECT
         job_id, 
         job_title,
