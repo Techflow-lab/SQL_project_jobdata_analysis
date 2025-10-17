@@ -21,7 +21,8 @@ WITH top_paying_jobs AS(
 )
 
 SELECT 
-    top_paying_jobs.*
+    top_paying_jobs.*, 
+    skills
 FROM 
     top_paying_jobs
 INNER JOIN skills_job_dim ON skills_job_dim.job_id = top_paying_jobs.job_id
