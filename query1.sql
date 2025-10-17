@@ -30,3 +30,8 @@ INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 ORDER BY
     salary_year_avg DESC
 
+-- SQL and Python are the most critical skills, suggesting they are the industry standard for data manipulation, analysis, and programming.
+
+-- Tableau is the third most popular, indicating a high demand for data visualization and business intelligence reporting.
+
+-- The presence of Snowflake (cloud data warehouse) and Azure (cloud platform) points to the increasing need for professionals skilled in cloud-based data environments.
