@@ -1,3 +1,5 @@
+-- Topic: What skills are required for the top-paying data analyst jobs
+
 WITH top_paying_jobs AS (
     SELECT
         job_id, 
@@ -28,7 +30,7 @@ FROM
 INNER JOIN skills_job_dim ON skills_job_dim.job_id = top_paying_jobs.job_id
 INNER JOIN skills_dim ON skills_dim.skill_id = skills_job_dim.skill_id
 ORDER BY
-    salary_year_avg DESC
+    salary_year_avg DESC;
 
 -- SQL and Python are the most critical skills, suggesting they are the industry standard for data manipulation, analysis, and programming.
 
