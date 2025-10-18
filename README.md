@@ -82,7 +82,7 @@ Each query for this project aimed to investigate specific aspects of the data an
 
 ### 1️⃣ Top Paying Data Analyst Jobs
 
-Identified the top 10 highest-paying Data Analyst roles available remotely.
+Identified the top 20 highest-paying Data Analyst roles available remotely.
 
 ```sql
 SELECT
