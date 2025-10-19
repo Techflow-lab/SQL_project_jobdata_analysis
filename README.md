@@ -167,20 +167,6 @@ LIMIT 25;
 3. **Learn Tableau** → Visualization capability
 4. **Specialize in cloud platforms** → Salary optimization
 
-## Visualizations
-
-### Skill Demand vs Salary Analysis
-![Skills Matrix](https://via.placeholder.com/800x400?text=Skills+Demand+vs+Average+Salary)
-*Visualization concept: Bubble chart showing top 25 skills with demand (x-axis), salary (y-axis), and bubble size representing market value*
-
-### Top 5 Most Demanded Skills
-![Demand Chart](https://via.placeholder.com/600x300?text=Top+5+Skills+by+Demand+Count)
-*Bar chart: SQL (7,291) >> Excel, Python, Tableau, Power BI*
-
-### Salary Distribution by Skill Category
-![Salary Distribution](https://via.placeholder.com/600x300?text=Salary+Range+by+Skill+Type)
-*Box plot: Big Data/Cloud tools vs Standard Analytics tools vs BI/Visualization tools*
-
 ## Technical Stack
 
 **SQL Techniques:**
@@ -195,16 +181,6 @@ LIMIT 25;
 - `company_dim` - Company information
 - `skills_job_dim` - Job-skill relationships
 - `skills_dim` - Skill definitions
-
-## Quick Start
-
-```bash
-# Execute individual queries
-psql -d your_database -f 1_top_paying_jobs.sql
-
-# Or run all analyses sequentially
-for file in {1..5}_*.sql; do psql -d your_database -f "$file"; done
-```
 
 ## Key Takeaways
 
